@@ -33,6 +33,7 @@ testX = pageSpeeds[80:]
 trainY = purchaseAmount[:80]
 testY = purchaseAmount[80:]
 
+
 # draw the scatter picture with page as x and purchase as y of train and test
 ax2.scatter(trainX, trainY, c='r')
 ax2.scatter(testX, testY, c='g')
